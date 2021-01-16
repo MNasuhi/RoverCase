@@ -37,7 +37,6 @@ Movement of 2 robots whose position and direction are specified on the X-Y coord
 Directions
 N -> north
 E -> east
-
 S -> south
 w -> west
 
