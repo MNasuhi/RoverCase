@@ -9,5 +9,6 @@ namespace ConsoleApp1.Models
         public int acide { get; set; }
         public int acide2 { get; set; }
         public int acide23 { get; set; }
+        public int acide234 { get; set; }
     }
 }
