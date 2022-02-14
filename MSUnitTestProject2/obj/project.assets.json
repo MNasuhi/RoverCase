@@ -1621,9 +1621,6 @@
       "ConsoleApp1/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "Microsoft.NETCore.App": "2.1.0"
-        },
         "compile": {
           "bin/placeholder/ConsoleApp1.dll": {}
         },
@@ -5833,24 +5830,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\muhammed.demir\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\m_nas\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\muhammed.demir\\source\\repos\\ConsoleApp1\\MSUnitTestProject2\\MSUnitTestProject2.csproj",
+      "projectUniqueName": "D:\\VSProject\\RoverCase\\MSUnitTestProject2\\MSUnitTestProject2.csproj",
       "projectName": "MSUnitTestProject2",
-      "projectPath": "C:\\Users\\muhammed.demir\\source\\repos\\ConsoleApp1\\MSUnitTestProject2\\MSUnitTestProject2.csproj",
-      "packagesPath": "C:\\Users\\muhammed.demir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\muhammed.demir\\source\\repos\\ConsoleApp1\\MSUnitTestProject2\\obj\\",
+      "projectPath": "D:\\VSProject\\RoverCase\\MSUnitTestProject2\\MSUnitTestProject2.csproj",
+      "packagesPath": "C:\\Users\\m_nas\\.nuget\\packages\\",
+      "outputPath": "D:\\VSProject\\RoverCase\\MSUnitTestProject2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\muhammed.demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\m_nas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -5862,8 +5860,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\muhammed.demir\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
-              "projectPath": "C:\\Users\\muhammed.demir\\source\\repos\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj"
+            "D:\\VSProject\\RoverCase\\ConsoleApp1\\ConsoleApp1.csproj": {
+              "projectPath": "D:\\VSProject\\RoverCase\\ConsoleApp1\\ConsoleApp1.csproj"
             }
           }
         }
@@ -5890,16 +5888,23 @@
             "version": "[15.9.0, )"
           },
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.416\\RuntimeIdentifierGraph.json"
       }
     }
   }
